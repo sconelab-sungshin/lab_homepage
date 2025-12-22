@@ -7,7 +7,7 @@ const Opportunities: React.FC = () => {
       <h2 className="text-2xl font-semibold mb-8 tracking-wide uppercase text-[#2c3e50]">Opportunities</h2>
       
       <div className="space-y-6">
-        <div className="bg-[#f8f9fa] p-8 border-l-4 border-[#3498db]">
+        <div className="bg-[#f8f9fa] p-8 border-l-4 border-[#6b4f3f]">
             <h3 className="text-lg font-medium text-[#444] mb-2">Prospective Graduate Students</h3>
             <p className="text-[#555]">
                 We are looking for motivated Master's and Ph.D. students interested in visual perception and cognitive neuroscience. 
@@ -35,7 +35,7 @@ const Opportunities: React.FC = () => {
             </p>
         </div>
 
-        <div className="bg-[#f8f9fa] p-8 border-l-4 border-[#3498db]">
+        <div className="bg-[#f8f9fa] p-8 border-l-4 border-[#6b4f3f]">
             <h3 className="text-lg font-medium text-[#444] mb-2">Undergraduate Research Assistants</h3>
             <p className="text-[#555]">
                 Sungshin Women's University undergraduates interested in gaining research experience are welcome to apply. 
