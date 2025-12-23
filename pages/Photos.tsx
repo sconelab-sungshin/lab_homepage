@@ -19,11 +19,11 @@ const albums: Album[] = [
     date: "Dec 4th 2025",
     cover: `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_8344.jpg`,
     photos: [
-      "images/lab_photos/lab_dinner_20251204/IMG_8344.jpg",
-      "images/lab_photos/lab_dinner_20251204/IMG_8348.jpg",
-      "images/lab_photos/lab_dinner_20251204/IMG_8354.jpg",
-      "images/lab_photos/lab_dinner_20251204/IMG_6233.jpg",
-      "images/lab_photos/lab_dinner_20251204/IMG_8359.jpg",
+      `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_8344.jpg`,
+      `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_8348.jpg`,
+      `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_8354.jpg`,
+      `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_6322.jpg`,
+      `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_8359.jpg`,
     ],
   },
 ];
