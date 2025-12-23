@@ -10,7 +10,7 @@ const Home: React.FC = () => {
           <div className="w-full md:w-[300px] shrink-0">
             <div className="aspect-square rounded-lg overflow-hidden">
               <img 
-                src={`${import.meta.env.BASE_URL}public/lab_logo_png.png`}
+                src={`${import.meta.env.BASE_URL}public/images/lab_logo_notext.png`}
                 alt="scone lab logo" 
                 className="w-full h-full object-contain drop-shadow-sm drop-shadow-sm opacity-90 transition-transform duration-300 hover:scale-105"
               />
