@@ -39,7 +39,7 @@ const labMembers = [
     name: "송아리영",
     role: "Research Assistant",
     email: "student3@sungshin.ac.kr",
-    image: "/images/lab_logo_preliminary.png",
+    image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
   },
 ];
 
