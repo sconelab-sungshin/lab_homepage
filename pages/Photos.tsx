@@ -10,6 +10,8 @@ type Album = {
   description?: string;
 };
 
+const BASE = import.meta.env.BASE_URL; 
+
 const albums: Album[] = [
   // 새로운 이벤트 생길때마다, 여기에 아래 {} 형식 복붙해서 고쳐넣기
   {
@@ -34,7 +36,6 @@ function compareDateDesc(a: Album, b: Album) {
 }
 
 const Photos: React.FC = () => {
-  const BASE = import.meta.env.BASE_URL; 
   const sortedAlbums = useMemo(() => [...albums].sort(compareDateDesc), []);
 
   const [openAlbumId, setOpenAlbumId] = useState<string | null>(null);
