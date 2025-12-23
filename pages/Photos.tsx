@@ -22,7 +22,7 @@ const albums: Album[] = [
       `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_8344.jpg`,
       `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_8348.jpg`,
       `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_8354.jpg`,
-      `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_6322.jpg`,
+      `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_6233.jpg`,
       `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_8359.jpg`,
     ],
   },
