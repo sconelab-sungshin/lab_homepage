@@ -18,7 +18,7 @@ const newsData: NewsItem[] = [
     id: "0000",
     date: "Sep 2025",
     content:
-      "The SCONE Lab in the Department of Psychology at Sungshin Women’s University has begun its lab meetings for the Fall 2025 semester.",
+      "Opening of the SCONE Lab, at the Depart of Psychology, Sungshin Women's University (Seoul, Korea)",
   },
 ];
 

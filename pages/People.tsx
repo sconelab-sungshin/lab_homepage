@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import ContactEmail from "../components/ContactEmail";
 
 const PI = {
   name: "Gaeun Son",
@@ -8,14 +9,14 @@ const PI = {
   description:
     "I am an Assistant Professor in the Department of Psychology at Sungshin Women's University. " +
     "My research focuses on understanding the mechanisms of visual perception and memory in naturalistic settings. " +
-    "I combine behaviour and neuroimaging data nwith deep vision models to investigate how we build representations of the multidimensional visual world. ",
+    "I combine behaviour and neuroimaging data with deep vision models to investigate how we build representations of the multidimensional visual world. ",
   links: [
     {
       label: "Google Scholar",
       url: "https://scholar.google.com/citations?user=bgY8jz0AAAAJ&hl=en&oi=ao",
     },
     {
-      label: "Curriculum Vitae (PDF)",
+      label: "Curriculum Vitae",
       url: "https://drive.google.com/file/d/1rfRNjNAaW1an8H6shF2r0I3-jgDYtBG1/view?usp=sharing",
     },
   ],
@@ -86,7 +87,7 @@ const ContactEmail: React.FC<ContactEmailProps> = ({
       >
         {email}
       </button>
-      {copied && <span className="ml-2 text-xs text-[#3498db]">Copied</span>}
+      {copied && <span className="ml-2 text-xs text-purple-600">Copied!</span>}
     </p>
   );
 };

@@ -6,21 +6,21 @@ const projectData: ResearchItem[] = [
     id: "natural-scene",
     title: "Natural Scene Perception",
     description:
-      "How do we rapidly understand complex scenes? We investigate the visual features and semantic information that the brain prioritizes when processing natural environments. We aim to understand the neural and cognitive architecture that supports our ability to categorize and navigate the world effortlessly.",
+      "How do we rapidly understand complex scenes? We investigate the visual and semantic features that the brain utilizes when processing natural environments. We aim to understand the neural and cognitive mechanisms that support our ability to process the external world effortlessly.",
     imageUrl: "https://picsum.photos/600/400?random=10",
   },
   {
     id: "perception-memory",
     title: "Interaction between Perception and Memory",
     description:
-      'Perception and memory are often treated as separate systems, but they are deeply intertwined. Our lab explores how memory systems (working memory, long-term memory) influence what we perceive, and conversely, how perceptual fidelity shapes memory storage. We are particularly interested in how "scene wheels"—continuous spaces of scene stimuli—can reveal the precision of memory representations.',
+      'Perception and memory are often treated as separate systems, but they are deeply intertwined. Our lab explores how memory systems (working memory, long-term memory) influence what we perceive, and conversely, how perceptual fidelity shapes memory storage.',
     imageUrl: "https://picsum.photos/600/400?random=11",
   },
   {
     id: "computational-modelling",
     title: "AI-based Computational Modelling",
     description:
-      "We utilize state-of-the-art deep learning techniques to model human vision. By comparing human behavioral data with the latent representations of AI models, we seek to bridge the gap between biological vision and artificial intelligence, developing more biologically plausible computational models.",
+      "We utilize state-of-the-art deep learning techniques to model human vision. By comparing human behavioral and neural data with the latent representations of AI models, we seek to bridge the gap between biological vision and artificial intelligence, developing more biologically plausible computational models.",
     imageUrl: "https://picsum.photos/600/400?random=12",
   },
 ];
