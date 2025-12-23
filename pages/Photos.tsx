@@ -10,14 +10,14 @@ type Album = {
   description?: string;
 };
 
-const img_path = import.meta.env.BASE_URL
+// const img_path = import.meta.env.BASE_URL
 
 const albums: Album[] = [
   {
     id: "lab-dinner-2025-12-05",
     title: "Lab Dinner",
     date: "Dec 4th 2025",
-    cover: "images/lab_photos/lab_dinner_20251204/IMG_8344.jpg",
+    cover: `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_8344.jpg`,
     photos: [
       "images/lab_photos/lab_dinner_20251204/IMG_8344.jpg",
       "images/lab_photos/lab_dinner_20251204/IMG_8348.jpg",
@@ -103,7 +103,7 @@ const Photos: React.FC = () => {
           >
             <div className="aspect-[4/3] bg-gray-100 rounded-lg overflow-hidden shadow-sm">
               <img
-                src={`${img_path}${album.cover}`}
+                src= {album.cover}
                 alt={`${album.title} cover`}
                 className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-300"
                 loading="lazy"
