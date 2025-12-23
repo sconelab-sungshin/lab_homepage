@@ -33,7 +33,7 @@ const labMembers = [
     name: "Geonhee Kang",
     role: "Research Assistant",
     email: "student2@sungshin.ac.kr",
-    image: "/images/lab_logo_preliminary.png",
+    image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
   },
   {
     name: "송아리영",
