@@ -5,7 +5,7 @@ const PI = {
   name: "Gaeun Son",
   role: "Principal Investigator",
   email: "songaeun@sungshin.ac.kr",
-  image: "/images/photo_GaeunSon_2025ver.jpg",
+  image: `${import.meta.env.BASE_URL}images/photo_GaeunSon_2025ver.jpg`,
   description:
     "I am an Assistant Professor in the Department of Psychology at Sungshin Women's University. " +
     "My research focuses on understanding the mechanisms of visual perception and memory in naturalistic settings. " +
