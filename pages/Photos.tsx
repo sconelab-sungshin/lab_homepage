@@ -10,21 +10,18 @@ type Album = {
   description?: string;
 };
 
-const BASE = import.meta.env.BASE_URL;
-
 const albums: Album[] = [
-  // 새로운 이벤트 생길때마다, 여기에 아래 {} 형식 복붙해서 고쳐넣기
   {
     id: "lab-dinner-2025-12-05",
     title: "Lab Dinner",
     date: "Dec 4th 2025",
-    cover: `${BASE}images/lab_photos/lab_dinner_20251204/IMG_8344.png`,
+    cover: `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_8344.png`,
     photos: [
-      `${BASE}images/lab_photos/lab_dinner_20251204/IMG_8344.jpg`,
-      `${BASE}images/lab_photos/lab_dinner_20251204/IMG_8348.jpg`,
-      `${BASE}images/lab_photos/lab_dinner_20251204/IMG_8354.jpg`,
-      `${BASE}images/lab_photos/lab_dinner_20251204/IMG_6233.jpg`,
-      `${BASE}images/lab_photos/lab_dinner_20251204/IMG_8359.jpg`,
+      "/images/lab_photos/lab_dinner_20251204/IMG_8344.jpg",
+      "/images/lab_photos/lab_dinner_20251204/IMG_8348.jpg",
+      "/images/lab_photos/lab_dinner_20251204/IMG_8354.jpg",
+      "/images/lab_photos/lab_dinner_20251204/IMG_6233.jpg",
+      "/images/lab_photos/lab_dinner_20251204/IMG_8359.jpg",
     ],
   },
 ];

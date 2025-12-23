@@ -22,26 +22,24 @@ const PI = {
   ],
 };
 
-const BASE = import.meta.env.BASE_URL;
-
 const labMembers = [
   {
     name: "Jiyun Park",
     role: "Research Assistant",
     email: "student1@sungshin.ac.kr",
-    image: `${BASE}images/lab_logo_preliminary.png`,
+    image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
   },
   {
     name: "Geonhee Kang",
     role: "Research Assistant",
     email: "student2@sungshin.ac.kr",
-    image: `${BASE}images/lab_logo_preliminary.png`,
+    image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
   },
   {
-    name: "A",
+    name: "송아리영",
     role: "Research Assistant",
     email: "student3@sungshin.ac.kr",
-    image:`${BASE}images/lab_logo_preliminary.png`,
+    image:`${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
   },
 ];
 
