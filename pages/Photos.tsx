@@ -10,7 +10,7 @@ type Album = {
   description?: string;
 };
 
-const img_path = `${import.meta.env.BASE_URL}`
+const img_path = import.meta.env.BASE_URL
 
 const albums: Album[] = [
   {
@@ -103,7 +103,7 @@ const Photos: React.FC = () => {
           >
             <div className="aspect-[4/3] bg-gray-100 rounded-lg overflow-hidden shadow-sm">
               <img
-                src={album.cover}
+                src={`${img_path}${album.cover}`}
                 alt={`${album.title} cover`}
                 className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-300"
                 loading="lazy"
