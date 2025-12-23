@@ -27,18 +27,19 @@ const labMembers = [
     name: "Jiyun Park",
     role: "Research Assistant",
     email: "student1@sungshin.ac.kr",
-    image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
+    image: "/images/lab_logo_preliminary.png",
   },
   {
     name: "Geonhee Kang",
     role: "Research Assistant",
     email: "student2@sungshin.ac.kr",
-    image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
+    image: "/images/lab_logo_preliminary.png",
+  },
   {
     name: "송아리영",
     role: "Research Assistant",
     email: "student3@sungshin.ac.kr",
-    image:`${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
+    image: "/images/lab_logo_preliminary.png",
   },
 ];
 
@@ -47,7 +48,7 @@ const Alumni = [
     name: "Angelica Angelio",
     role: "Research Assistant (2025 Fall)",
     email: "student1@sungshin.ac.kr",
-    image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
+    image: "/images/lab_logo_preliminary.png",
   },
 ]
 
