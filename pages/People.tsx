@@ -48,7 +48,7 @@ const Alumni = [
     name: "Angelica Angelio",
     role: "Research Assistant (2025 Fall)",
     email: "student1@sungshin.ac.kr",
-    image: "/images/lab_logo_preliminary.png",
+    image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
   },
 ]
 
