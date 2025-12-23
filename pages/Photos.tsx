@@ -23,8 +23,8 @@ const albums: Album[] = [
       "images/lab_photos/lab_dinner_20251204/IMG_8344.jpg",
       "images/lab_photos/lab_dinner_20251204/IMG_8348.jpg",
       "images/lab_photos/lab_dinner_20251204/IMG_8354.jpg",
-      "${BASE}images/lab_photos/lab_dinner_20251204/IMG_6233.jpg",
-      "${BASE}images/lab_photos/lab_dinner_20251204/IMG_8359.jpg",
+      "images/lab_photos/lab_dinner_20251204/IMG_6233.jpg",
+      "images/lab_photos/lab_dinner_20251204/IMG_8359.jpg",
     ],
   },
 ];
