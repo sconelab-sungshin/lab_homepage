@@ -15,7 +15,7 @@ const albums: Album[] = [
     id: "lab-dinner-2025-12-05",
     title: "Lab Dinner",
     date: "Dec 4th 2025",
-    cover: `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20251204/IMG_8344.png`,
+    cover: "/images/lab_photos/lab_dinner_20251204/IMG_8344.jpg",
     photos: [
       "/images/lab_photos/lab_dinner_20251204/IMG_8344.jpg",
       "/images/lab_photos/lab_dinner_20251204/IMG_8348.jpg",
