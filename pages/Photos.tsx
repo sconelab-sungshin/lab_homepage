@@ -18,13 +18,13 @@ const albums: Album[] = [
     id: "lab-dinner-2025-12-05",
     title: "Lab Dinner",
     date: "Dec 4th 2025",
-    cover: "images/lab_photos/lab_dinner_20251204/IMG_8344.png",
+    cover: `${BASE}images/lab_photos/lab_dinner_20251204/IMG_8344.png`,
     photos: [
-      "images/lab_photos/lab_dinner_20251204/IMG_8344.jpg",
-      "images/lab_photos/lab_dinner_20251204/IMG_8348.jpg",
-      "images/lab_photos/lab_dinner_20251204/IMG_8354.jpg",
-      "${BASE}images/lab_photos/lab_dinner_20251204/IMG_6233.jpg",
-      "${BASE}images/lab_photos/lab_dinner_20251204/IMG_8359.jpg",
+      `${BASE}images/lab_photos/lab_dinner_20251204/IMG_8344.jpg`,
+      `${BASE}images/lab_photos/lab_dinner_20251204/IMG_8348.jpg`,
+      `${BASE}images/lab_photos/lab_dinner_20251204/IMG_8354.jpg`,
+      `${BASE}images/lab_photos/lab_dinner_20251204/IMG_6233.jpg`,
+      `${BASE}images/lab_photos/lab_dinner_20251204/IMG_8359.jpg`,
     ],
   },
 ];
@@ -104,7 +104,7 @@ const Photos: React.FC = () => {
           >
             <div className="aspect-[4/3] bg-gray-100 rounded-lg overflow-hidden shadow-sm">
               <img
-                src={`${BASE}${album.cover}`}
+                src={album.cover}
                 alt={`${album.title} cover`}
                 className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-300"
                 loading="lazy"
@@ -159,7 +159,7 @@ const Photos: React.FC = () => {
               <div className="relative">
                 {currentSrc ? (
                   <img
-                    src={`${BASE}${currentSrc}`}
+                    src={currentSrc}
                     alt={`${currentAlbum.title} photo ${activeIndex + 1}`}
                     className="w-full max-h-[70vh] object-contain bg-black"
                   />
@@ -232,7 +232,7 @@ const Photos: React.FC = () => {
                       aria-label={`Open photo ${idx + 1}`}
                     >
                       <img
-                        src={`${BASE}${src}`}
+                        src={src}
                         alt={`${currentAlbum.title} thumbnail ${idx + 1}`}
                         className="w-full h-14 object-cover"
                         loading="lazy"
