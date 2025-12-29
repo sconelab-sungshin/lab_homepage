@@ -53,9 +53,9 @@ const labMembers = [
 
 const Alumni = [
   {
-    name: "Angelica Angelio",
+    name: "Angelica Marie Jacinto Angelio",
     role: "Research Assistant (2025 Fall)",
-    email: "student1@sungshin.ac.kr",
+    email: "angelica_mjacinto@yahoo.com",
     image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
   },
 ]
