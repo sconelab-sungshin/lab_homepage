@@ -5,7 +5,7 @@ const PI = {
   name: "Gaeun Son",
   role: "Principal Investigator",
   email: "songaeun@sungshin.ac.kr",
-  image: `${import.meta.env.BASE_URL}images/photo_GaeunSon_2025ver.jpg`,
+  image: `${import.meta.env.BASE_URL}images/profiles/GaeunSon.jpg`,
   description:
     "I am an Assistant Professor in the Department of Psychology at Sungshin Women's University. " +
     "My research focuses on understanding the mechanisms of visual perception and memory in naturalistic settings. " +
@@ -34,12 +34,20 @@ const labMembers = [
     role: "Research Assistant",
     email: "student2@sungshin.ac.kr",
     image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
+    description: "I am an undergraduate psychology student at Sungshin Women’s University. "+
+    "My academic interests center on visual perception and memory, with a focus on how people perceive and remember real-world scenes. "+
+    "I enjoy thinking about perception as a way of understanding how we experience the world. "+
+    "My personal motto is to approach both research and life with curiosity, courage, and a willingness to take on new challenges."
   },
   {
-    name: "송아리영",
+    name: "Ariyoung Song",
     role: "Research Assistant",
     email: "student3@sungshin.ac.kr",
-    image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
+    image: `${import.meta.env.BASE_URL}images/profiles/AriyoungSong.jpg`,
+    description: "Hello, my name is Ariyoung Song."+
+    "I am a senior majoring in Psychology at Sungshin Women’s University. " +
+    "I am interested in cognitive psychology, especially visual perception and related cognitive processes. "+
+    "In my free time, I enjoy playing video games and exploring new delicious restaurants."
   },
 ];
 
