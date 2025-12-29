@@ -26,13 +26,13 @@ const labMembers = [
   {
     name: "Jiyun Park",
     role: "Research Assistant",
-    email: "student1@sungshin.ac.kr",
+    email: "20220069@sungshin.ac.kr",
     image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
   },
   {
     name: "Geonhee Kang",
     role: "Research Assistant",
-    email: "student2@sungshin.ac.kr",
+    email: "20231656@sungshin.ac.kr",
     image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
     description: "I am an undergraduate psychology student at Sungshin Women’s University. "+
     "My academic interests center on visual perception and memory, with a focus on how people perceive and remember real-world scenes. "+
@@ -42,7 +42,7 @@ const labMembers = [
   {
     name: "Ariyoung Song",
     role: "Research Assistant",
-    email: "student3@sungshin.ac.kr",
+    email: "20220238@sungshin.ac.kr",
     image: `${import.meta.env.BASE_URL}images/profiles/AriyoungSong.jpg`,
     description: "Hello, my name is Ariyoung Song."+
     "I am a senior majoring in Psychology at Sungshin Women’s University. " +
