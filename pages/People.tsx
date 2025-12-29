@@ -44,7 +44,7 @@ const labMembers = [
     role: "Research Assistant",
     email: "20220238@sungshin.ac.kr",
     image: `${import.meta.env.BASE_URL}images/profiles/AriyoungSong.jpg`,
-    description: "Hello, my name is Ariyoung Song."+
+    description: "Hello, my name is Ariyoung Song. "+
     "I am a senior majoring in Psychology at Sungshin Women’s University. " +
     "I am interested in cognitive psychology, especially visual perception and related cognitive processes. "+
     "In my free time, I enjoy playing video games and exploring new delicious restaurants."
