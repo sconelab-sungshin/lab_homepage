@@ -33,7 +33,7 @@ const labMembers = [
     name: "Geonhee Kang",
     role: "Research Assistant",
     email: "20231656@sungshin.ac.kr",
-    image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
+    image: `${import.meta.env.BASE_URL}images/profiles/GeonheeKang.jpg`,
     description: "I am an undergraduate psychology student at Sungshin Women’s University. "+
     "My academic interests center on visual perception and memory, with a focus on how people perceive and remember real-world scenes. "+
     "I enjoy thinking about perception as a way of understanding how we experience the world. "+
