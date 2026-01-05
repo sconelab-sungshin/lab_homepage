@@ -27,7 +27,7 @@ const labMembers = [
     name: "Jiyun Park",
     role: "Research Assistant",
     email: "20220069@sungshin.ac.kr",
-    image: `${import.meta.env.BASE_URL}images/profiles/JiyunPark.jpg`,
+    image: `${import.meta.env.BASE_URL}images/profiles/JiyunPark2.jpg`,
     description: 'My name is Jiyun Park, and I am an undergraduate student majoring in Psychology at Sungshin Women’s University. '+
     'My academic interests lie at the intersection of visual perception, neurolinguistics, and functional connectomics. '+
     'In my free time, I enjoy studying foreign languages and exploring new restaurants. '+
