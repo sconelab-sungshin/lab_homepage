@@ -5,7 +5,7 @@ const PI = {
   name: "Gaeun Son",
   role: "Principal Investigator",
   email: "songaeun@sungshin.ac.kr",
-  image: `${import.meta.env.BASE_URL}images/profiles/GaeunSon2.jpg`,
+  image: `${import.meta.env.BASE_URL}images/profiles/GaeunSon.jpg`,
   description:
     "I am an Assistant Professor in the Department of Psychology at Sungshin Women's University. " +
     "My research focuses on understanding the mechanisms of visual perception and memory in naturalistic settings. " +
@@ -37,7 +37,7 @@ const labMembers = [
     name: "Geonhee Kang",
     role: "Research Assistant",
     email: "20231656@sungshin.ac.kr",
-    image: `${import.meta.env.BASE_URL}images/profiles/GeonheeKang2.jpg`,
+    image: `${import.meta.env.BASE_URL}images/profiles/GeonheeKang.jpg`,
     description: "I am an undergraduate psychology student at Sungshin Women’s University. "+
     "My academic interests center on visual perception and memory, with a focus on how people perceive and remember real-world scenes. "+
     "I enjoy thinking about perception as a way of understanding how we experience the world. "+
