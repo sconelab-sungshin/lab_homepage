@@ -60,7 +60,12 @@ const Alumni = [
     name: "Angelica Marie Jacinto Angelio",
     role: "Research Assistant (2025 Fall)",
     email: "angelica_mjacinto@yahoo.com",
-    image: `${import.meta.env.BASE_URL}images/lab_logo_preliminary.png`,
+    image: `${import.meta.env.BASE_URL}images/profiles/AngelicaAngelio.jpg`,
+    description: "I am Angelica Marie Jacinto Angelio. " +
+    "I was an exchange student at Sungshin Women’s University. I am currently an undergraduate at the University of the Philippines - Diliman majoring in BS Family Life and Child Development. "+
+    "I am interested in exploring neurodevelopmental differences in children through the combined lenses of education and psychology. "+
+    "My focus is on how variations in cognitive processes influence learning and development, and how psychological research can inform inclusive educational and home environments that recognize and build on individual strengths. "+
+    "I am especially motivated by advocacy-oriented approaches that center neurodiversity and promote equity within educational systems and family relationships."
   },
 ]
 
