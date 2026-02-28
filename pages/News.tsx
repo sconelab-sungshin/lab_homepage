@@ -78,7 +78,7 @@ const News: React.FC = () => {
                       transition-colors
                     "
                   >
-                    Read more
+                    More
                   </a>
                 </>
               )}
