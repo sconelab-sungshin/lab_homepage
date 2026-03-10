@@ -15,7 +15,7 @@ const publications: Publication[] = [
     id: "paper-007",
     title: "A large positive hysteresis effect for scene categories",
     authors: "Chen, H., Yang, M., Son, G., Mack, M. L., Walther, D. B.",
-    venue: "<i>in press</i> Journal of Experimental Psychology: Human Perception and Performance",
+    venue: "[in press] Journal of Experimental Psychology: Human Perception and Performance",
     year: 2026,
     // paperUrl: "TBU",
     codeUrl: "https://osf.io/2n3ed/",
