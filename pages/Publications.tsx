@@ -12,6 +12,15 @@ type Publication = {
 
 const publications: Publication[] = [
   {
+    id: "paper-007",
+    title: "A large positive hysteresis effect for scene categories",
+    authors: "Chen, H., Yang, M., Son, G., Mack, M. L., Walther, D. B.",
+    venue: "Journal of Experimental Psychology: Human Perception and Performance",
+    year: 2026,
+    paperUrl: "TBU (in press)",
+    codeUrl: "https://osf.io/2n3ed/",
+  },
+  {
     id: "paper-006",
     title: "Attention to complex scene features",
     authors: "Son, G., Mack, M. L., Walther, D. B.",
