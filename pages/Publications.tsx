@@ -17,7 +17,7 @@ const publications: Publication[] = [
     authors: "Chen, H., Yang, M., Son, G., Mack, M. L., Walther, D. B.",
     venue: "[in press] Journal of Experimental Psychology: Human Perception and Performance",
     year: 2026,
-    // paperUrl: "TBU",
+    paperUrl: "https://psycnet.apa.org/doiLanding?doi=10.1037%2Fxhp0001416",
     codeUrl: "https://osf.io/2n3ed/",
   },
   {
