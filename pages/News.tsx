@@ -7,6 +7,13 @@ import { NewsItem } from "../types";
 
 const newsData: NewsItem[] = [
   /* 새로운 뉴스 생길 때마다, 제일 위에 얹기 */
+    {
+    id: "0003",
+    date: "Mar 2026",
+    title: "Perceptual Hystersis for Scene Categories",
+    content: "A paper co-authored by Gaeun has been published in Journal of Experimental Psychology: Human Perception and Performance, Congrats!!",
+    url: "https://psycnet.apa.org/record/2027-49165-001",
+  },
   {
     id: "0002",
     date: "Feb 2026",
