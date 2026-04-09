@@ -11,7 +11,7 @@ const newsData: NewsItem[] = [
     id: "0003",
     date: "Mar 2026",
     title: "A large positive hysteresis effect for scene categories",
-    content: "A paper co-authored by Gaeun has been published in Journal of Experimental Psychology: Human Perception and Performance, Congrats!!",
+    content: "A paper co-authored by Gaeun has been published in Journal of Experimental Psychology: Human Perception and Performance. Congrats, Gaeun!",
     url: "https://psycnet.apa.org/record/2027-49165-001",
   },
   {
