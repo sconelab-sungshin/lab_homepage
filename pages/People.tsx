@@ -53,6 +53,16 @@ const labMembers = [
     "I am interested in cognitive psychology, especially visual perception and related cognitive processes. "+
     "In my free time, I enjoy playing video games and exploring new delicious restaurants."
   },
+  {
+    name: "Yeonwoo Cho",
+    role: "Research Assistant",
+    email: "yeonwoo@duksung.ac.kr",
+    image: `${import.meta.env.BASE_URL}images/profiles/YeonwooCho.jpg`,
+    description: "As an undergraduate with a background in psychology and statistics,"+
+    "I am interested in computational neuroscience; "+
+    "particularly in how the brain constructs perceptual experience using AI-based computational models and fMRI data."+
+    "Outside of work, I enjoy listening to music and reading books."
+  },
 ];
 
 const Alumni = [
