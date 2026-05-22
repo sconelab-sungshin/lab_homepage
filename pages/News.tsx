@@ -7,7 +7,13 @@ import { NewsItem } from "../types";
 
 const newsData: NewsItem[] = [
   /* 새로운 뉴스 생길 때마다, 제일 위에 얹기 */
-    {
+  {
+    id: "0004",
+    date: "May 2026",
+    title: "New Grant Award for SCONE Lab",
+    content: "Good news! SCONE Lab has been awarded the Humanities and Social Sciences Outstanding Early-Career Researcher Grant for a one-year project. We’re excited to continue our research with this support!",
+  },
+  {
     id: "0003",
     date: "Mar 2026",
     title: "A large positive hysteresis effect for scene categories",
