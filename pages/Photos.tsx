@@ -14,6 +14,18 @@ type Album = {
 
 const albums: Album[] = [
   {
+    id: "lab-dinner-2026-06-23",
+    title: "Lab Dinner",
+    date: "June 23rd 2026",
+    cover: `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20260623/IMG_5080.jpg`,
+    photos: [
+      `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20260623/IMG_0721.jpg`,
+      `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20260623/IMG_0733.jpg`,
+      `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20260623/IMG_0740.jpg`,
+      `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20260623/IMG_5088.jpg`,
+    ],
+  },
+  {
     id: "lab-dinner-2026-02-27",
     title: "Lab Dinner",
     date: "Feb 27th 2026",
