@@ -19,6 +19,7 @@ const albums: Album[] = [
     date: "June 23rd 2026",
     cover: `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20260623/IMG_5080.jpg`,
     photos: [
+      `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20260623/IMG_5080.jpg`,
       `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20260623/IMG_0721.jpg`,
       `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20260623/IMG_0733.jpg`,
       `${import.meta.env.BASE_URL}images/lab_photos/lab_dinner_20260623/IMG_0740.jpg`,
